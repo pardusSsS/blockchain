@@ -1,0 +1,17 @@
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\bin\Debug\net7.0\Blockchain.exe
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\bin\Debug\net7.0\Blockchain.deps.json
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\bin\Debug\net7.0\Blockchain.runtimeconfig.json
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\bin\Debug\net7.0\Blockchain.dll
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\bin\Debug\net7.0\Blockchain.pdb
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\Blockchain.csproj.AssemblyReference.cache
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\Blockchain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\Blockchain.AssemblyInfoInputs.cache
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\Blockchain.AssemblyInfo.cs
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\Blockchain.csproj.CoreCompileInputs.cache
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\Blockchain.csproj.CopyComplete
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\Blockchain.dll
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\refint\Blockchain.dll
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\Blockchain.pdb
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\Blockchain.genruntimeconfig.cache
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\ref\Blockchain.dll
