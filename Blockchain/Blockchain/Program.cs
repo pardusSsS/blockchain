@@ -5,11 +5,67 @@ namespace Blockchain
 {
     class Program
     {
+        public static Blockchain ourBlockChain = new Blockchain();
+        public static int Port = 0;
+        public static P2PClient client = new P2PClient();
+        public static P2PServer server = null;
+        public static string name = "Unkown";
         static void Main(string[] args)
         {
-            Blockchain ourBlockChain = new Blockchain();
             DateTime starTime = DateTime.Now;
+            ourBlockChain.InitializeChain();
 
+            if(args.Length >= 1) Port = int.Parse(args[0]);
+
+            if (args.Length >= 2) name = args[1];
+
+            if (Port > 0) 
+            {
+                server = new P2PServer();
+                server.Start();
+            }
+
+            if (name != "Unkown") Console.WriteLine($"user: {name}");
+
+            Console.WriteLine("====================================");
+            Console.WriteLine("1. Connect to server");
+            Console.WriteLine("2. Add transaction");
+            Console.WriteLine("3. Show blockchain");
+            Console.WriteLine("4. exit");
+            Console.WriteLine("====================================");
+
+            int selection = 0;
+
+            while (selection != 4) 
+            {
+                switch (selection) 
+                {
+                    case 1:
+                        Console.WriteLine("Please write a server url: ");
+                        string serverUrl = Console.ReadLine();
+                        client.Connect($"{serverUrl}/Blockchain");
+                        break;
+                    case 2:
+                        Console.WriteLine("Please write a client name: ");
+                        string receiverName = Console.ReadLine();
+                        Console.WriteLine("Write amount: ");
+                        string amount = Console.ReadLine();
+                        ourBlockChain.CreateTransaction(new Transaction(name, receiverName, int.Parse(amount)));
+                        ourBlockChain.ProcessPendingTransaction(name);
+                        client.Broadcast(JsonConvert.SerializeObject(ourBlockChain));
+                        break;
+                    case 3:
+                        Console.WriteLine("Blockchain");
+                        Console.WriteLine(JsonConvert.SerializeObject(ourBlockChain, Formatting.Indented));
+                        break;
+                }
+
+                Console.WriteLine("Please choose a section: ");
+                string action = Console.ReadLine();
+                selection = int.Parse(action);
+            }
+
+            client.Close();
             //ourBlockChain.AddBlock(new Block(DateTime.Now, null, "{sender:Ömer,receiver:Uğur,amount:5}"));
             //ourBlockChain.AddBlock(new Block(DateTime.Now, null, "{sender:Uğur,receiver:Arda,amount:3}"));
             //ourBlockChain.AddBlock(new Block(DateTime.Now, null, "{sender:Arda,receiver:Derya,amount:1}"));

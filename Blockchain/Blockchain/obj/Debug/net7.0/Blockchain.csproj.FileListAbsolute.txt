@@ -4,6 +4,7 @@ C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\bin\Deb
 C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\bin\Debug\net7.0\Blockchain.dll
 C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\bin\Debug\net7.0\Blockchain.pdb
 C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\bin\Debug\net7.0\websocket-sharp.dll
 C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\Blockchain.csproj.AssemblyReference.cache
 C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\Blockchain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\omera\OneDrive\Belgeler\GitHub\blockchain\Blockchain\Blockchain\obj\Debug\net7.0\Blockchain.AssemblyInfoInputs.cache

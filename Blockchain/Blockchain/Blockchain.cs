@@ -3,7 +3,7 @@ namespace Blockchain
 {
     public class Blockchain
     {
-        IList<Transaction> PendingTransacions = new List<Transaction>();
+        public IList<Transaction> PendingTransacions = new List<Transaction>();
         public IList<Block> Chain { get; set; }
         public int difficulty { get; set; } = 3;
         public int Reward { get; set; } = 1;
@@ -11,12 +11,12 @@ namespace Blockchain
         public Blockchain() 
         {
             InitializeChain();
-            AddGenesisBlock();
         }
 
         public void InitializeChain() 
         {
             Chain = new List<Block>();
+            AddGenesisBlock();
         }
 
         public Block CreateGenesisBlock() 
